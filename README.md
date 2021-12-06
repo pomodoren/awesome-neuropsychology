@@ -19,61 +19,51 @@ A collection of awesome psychology research resources.
 
 
 ## Meta with Code
-| tool | source | aim | language | last-updated (6-Dec) | 
-| ---- | ------ | --- | -------- | ---------------------|
-| [PsychoNotebooks](https://psycho-notebooks.herokuapp.com/) | [source]() | Annotator for psycho-related text | python (fastapi) | 1 day ago |
-| [Report](https://easystats.github.io/report/) | [Neuropsychology.R](https://github.com/neuropsychology/neuropsychology.R) > [Psycho.R](https://github.com/neuropsychology/psycho.R) > [Report](https://github.com/easystats/report)|  Automated reporting of objects in R | R | 4 days ago | 
+
+* [PsychoNotebooks](https://psycho-notebooks.herokuapp.com/) [source](), an annotator for psycho-related text (1 day ago)
+* [Report](https://easystats.github.io/report/) - [Neuropsychology.R](https://github.com/neuropsychology/neuropsychology.R) > [Psycho.R](https://github.com/neuropsychology/psycho.R) > [Report](https://github.com/easystats/report) - automated reporting of objects in R 
 
 
 # Neuropsychology
 
 ## Tools
-| tool | aim | examples/docs | language | last-updated (6 Dec) | 
-| ---- | ----- | -------- | -------- | ------ |
-| [NeuroKit](https://github.com/neuropsychology/NeuroKit)| neurophysiology processing | [NeuroKit-Studies](https://github.com/neuropsychology/NeuroKit/tree/master/studies)| python | 24 days ago |
+* [mne](https://github.com/mne-tools/mne-python), [docs](https://mne.tools/stable/index.html) - MEG N' EEG in python
+* [eeglab](https://github.com/sccn/eeglab), [docs](https://sccn.ucsd.edu/eeglab/index.php) - signal processing environment for electrophysiological signals running on Matlab 
+* [NeuroKit](https://github.com/neuropsychology/NeuroKit), [studies](https://github.com/neuropsychology/NeuroKit/tree/master/studies) - neurophysiology processing 
 
 # Cognitive Science
 
 ## Experiment Frameworks
-
-| tool | aim | examples/docs | language | last-updated (6 Dec) | 
-| ---- | ----- | -------- | -------- | ------ |
-| [psychopy](https://github.com/psychopy/psychopy)| psychology and neuroscience experiments | [psychopy-docs](https://psychopy.org/documentation.html)| python | 16 days ago |
-| [OpenSesame](https://github.com/open-cogsci/OpenSesame) | Graphical experiment builder for the social sciences | [opensesame-docs](https://osdoc.cogsci.nl/)| python | 5 days ago |
-| [PsychJs](https://github.com/jspsych/jsPsych)| creating and running behavioral experiments in a web browser | [PsychJS-docs](https://www.jspsych.org/7.1/)| JavaScript | 4 days ago |
-| [lab.js](https://github.com/FelixHenninger/lab.js) | build, run and share studies that help understand the mind | [Docs](https://labjs.readthedocs.io/en/latest/index.html) | JavaScript | 21 days ago |
-| [expyriment](https://github.com/expyriment/expyriment)| timing-critical behavioural and neuroimaging experiments | [expyriment-stash](https://github.com/expyriment/expyriment-stash)| python | 19 days ago |
-| [FDBeye](https://github.com/davebraze/FDBeye) | tools for eyetracker workflows | [docs](https://github.com/davebraze/FDBeye/wiki/Researcher-Contributed-Eye-Tracking-Tools) | R | 3 years ago |
-| [cognitive-battery](https://github.com/sho-87/cognitive-battery)| Battery of standard cognitive psychology tasks | [tasks](https://github.com/sho-87/cognitive-battery/blob/master/tasks/README.md)| python | 3 years ago |
-| [catlearn](https://github.com/ajwills72/catlearn) | Formal Psychological Models of Categorization and Learning | [docs](http://www.willslab.org.uk/pubs/wills2016plm.pdf) | R | 16 days ago |
-| [JATOS](https://github.com/JATOS/JATOS)| Just Another Tool for Online Studies | [JATOS-docs](https://www.jatos.org/Whats-JATOS.html) | JavaScript | 1 day ago| 
-| [tatool-web](https://github.com/tatool/tatool-web) | open-source experiment software for researchers | [tatool-web-docs](http://www.tatool-web.com/#!/doc/main-start.html) | JavaScript | 22 days ago | 
-| [Neuropsydia](https://github.com/neuropsychology/Neuropsydia.py) | A Python Module for Creating Experiments, Tasks and Questionnaires | [examples](https://neuropsydia.readthedocs.io/en/latest/examples/questionnaires.html) | Python | 3 years ago | 
-| [CognitiveControl](https://github.com/neuropsychology/CognitiveControl)| A neuropsychological task measuring different aspects of cognitive control | Not found | Python,R | 3 years ago |
+* [psychopy](https://github.com/psychopy/psychopy), [docs](https://psychopy.org/documentation.html) - psychology and neuroscience experiments 
+* [OpenSesame](https://github.com/open-cogsci/OpenSesame), [docs](https://osdoc.cogsci.nl/) - Graphical experiment builder for the social sciences
+* [PsychJs](https://github.com/jspsych/jsPsych), [docs](https://www.jspsych.org/7.1/) - creating and running behavioral experiments in a web browser
+* [lab.js](https://github.com/FelixHenninger/lab.js), [docs](https://labjs.readthedocs.io/en/latest/index.html) - build, run and share studies that help understand the mind
+* [expyriment](https://github.com/expyriment/expyriment), [docs/stash](https://github.com/expyriment/expyriment-stash) timing-critical behavioural and neuroimaging experiments
+* [FDBeye](https://github.com/davebraze/FDBeye), [docs](https://github.com/davebraze/FDBeye/wiki/Researcher-Contributed-Eye-Tracking-Tools) tools for eyetracker workflows
+* [cognitive-battery](https://github.com/sho-87/cognitive-battery), [tasks](https://github.com/sho-87/cognitive-battery/blob/master/tasks/README.md) - Battery of standard cognitive psychology tasks 
+* [catlearn](https://github.com/ajwills72/catlearn), [docs](http://www.willslab.org.uk/pubs/wills2016plm.pdf) - Formal Psychological Models of Categorization and Learning 
+* [JATOS](https://github.com/JATOS/JATOS), [docs](https://www.jatos.org/Whats-JATOS.html) - Just Another Tool for Online Studies |
+* [tatool-web](https://github.com/tatool/tatool-web), [tatool-web-docs](http://www.tatool-web.com/#!/doc/main-start.html) - open-source experiment software for researchers
+* [Neuropsydia](https://github.com/neuropsychology/Neuropsydia.py), [examples](https://neuropsydia.readthedocs.io/en/latest/examples/questionnaires.html) -  A Python Module for Creating Experiments, Tasks and Questionnaires 
+| [CognitiveControl](https://github.com/neuropsychology/CognitiveControl) - A neuropsychological task measuring different aspects of cognitive control 
 
 
 ## DataSets 
-| dataset | scope | size | 
-| ------- | ----- | ---- |
-| [Kaggle Datasets](https://www.kaggle.com/search?q=psychology+tag%3A%22psychology%22) | various scopes, check for specifics  | 437 datasets |
+* [Kaggle Datasets](https://www.kaggle.com/search?q=psychology+tag%3A%22psychology%22)  (437 datasets) - various scopes, check for specifics 
 
 
 
 ## Papers with Code
-| paper | source | language | last-updated (6-Dec) | 
-| ---- | ------ | --- | ---------------------|
-| [DeepMind Lab wrapper for article "Meta-Reinforcement Learning](https://blog.floydhub.com/meta-rl/) | [MetaRL](https://github.com/mtrazzi/meta_rl) | python (tensorflow) | 3 years ago| 
-| [An exploratory analysis of emotion dynamics between mothers and adolescents during conflict discussions]()| [Emotion dynamics during conflict discussions](https://github.com/a-paxton/emotion-dynamics) | R | 5 years ago |
-| [FACSHuman, a software program for creating experimental material by modeling 3D facial expressions.](https://link.springer.com/article/10.3758%2Fs13428-021-01559-9) | [FACSHuman](https://github.com/montybot/FACSHuman) | python | 8 months ago| 
+* [DeepMind Lab wrapper for article "Meta-Reinforcement Learning](https://blog.floydhub.com/meta-rl/), [MetaRL](https://github.com/mtrazzi/meta_rl) 
+* [An exploratory analysis of emotion dynamics between mothers and adolescents during conflict discussions](), [Emotion dynamics during conflict discussions](https://github.com/a-paxton/emotion-dynamics)
+* [FACSHuman, a software program for creating experimental material by modeling 3D facial expressions.](https://link.springer.com/article/10.3758%2Fs13428-021-01559-9), [FACSHuman](https://github.com/montybot/FACSHuman) 
 
 # Additional
 
 ## Webapps
-| tool | source | aim | language | last-updated (6-Dec) | 
-| ---- | ------ | --- | -------- | ---------------------|
-| [Habitus](https://habitus.today/) | [source](https://github.com/AndromedaTechnology/habitus)| Tracker for emotions, habits and thoughts | TypeScript (Vue) | 1 month ago |
-| [MouseView](https://www.mouseview.org/) | [source](https://github.com/u01ai11/MouseView.js)| Attentional mouse tracking. Alternative to online eye tracking. | JavaScript | 24 days ago |
-| [DiseasePainter](https://diseasepainter.herokuapp.com/)| [source](https://github.com/DorenCalliku/DiseasePainter) | Tree visualizer for neuro+ diseases| python (flask) | 2 months ago | 
+* [Habitus](https://habitus.today/), [source](https://github.com/AndromedaTechnology/habitus) - Tracker for emotions, habits and thoughts
+* [MouseView](https://www.mouseview.org/), [source](https://github.com/u01ai11/MouseView.js) - Attentional mouse tracking. Alternative to online eye tracking.
+* [DiseasePainter](https://diseasepainter.herokuapp.com/), [source](https://github.com/DorenCalliku/DiseasePainter) - Tree visualizer for neuro+ diseases
 
 
 ## Other awesome links
